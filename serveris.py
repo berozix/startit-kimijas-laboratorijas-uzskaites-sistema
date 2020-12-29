@@ -14,7 +14,7 @@ def sveiki():
 
 @app.route('/sveiki/<vards>')
 def sveikiPersona(vards):
-  return f"sveiki (vards)"
+  return f"sveiki {vards}"
 
 if __name__ == "__main__":
     app.run("0.0.0.0", debug=True)
